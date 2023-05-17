@@ -21,6 +21,8 @@ class Config():
         self.bd_user = 'viewer1'
         self.bd_passwd = '11!!AAbbb'
 
+        self.symbol = 'BTCUSDT'
+
         self.db_name = 'exchange data'
 
         self.binance_client = Client()
