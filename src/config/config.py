@@ -1,3 +1,4 @@
+
 from binance import Client
 
 class Singleton(type):
@@ -26,3 +27,7 @@ class Config():
         self.db_name = 'exchange data'
 
         self.binance_client = Client()
+
+        self.files_location = "C:/Users/krotenko.n/Documents/BinanceData"
+        self.tg_daiy_token = "5765462506:AAE6iQMywWE61FedKIrPTj2QMDTVBRstJKI"
+        self.tg_chat_id = "494465491"
